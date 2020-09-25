@@ -31,7 +31,6 @@
 <img src='./Images/26.png' width="30%" style="vertical-align:top">
 <img src='./Images/27.png' width="30%" style="vertical-align:top">
 <img src='./Images/28.png' width="30%" style="vertical-align:top">
-</div>
- 
-*已经申请软件著作权，仅供参考学习使用*
+</div> 
+*为大学四年学习的总结，已经申请软件著作权，仅供参考学习使用*
 
