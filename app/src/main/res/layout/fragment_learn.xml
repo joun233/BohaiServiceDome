@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_ffffff"
+    tools:context=".fragment.LearnFragment">
+
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="12dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_everyday_english"
+            style="@style/left_layout"
+            android:layout_width="170dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_everyday_english"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/everyday_english"
+                android:textAllCaps="false"
+                android:textColor="@drawable/top_text"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_question_bank"
+            style="@style/right_layout"
+            android:layout_width="170dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_question_bank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/question_bank"
+                android:textColor="@drawable/top_text"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_learn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

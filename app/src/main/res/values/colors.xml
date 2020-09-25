@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#F203A9F4</color>
+    <color name="colorAccent">#C621B7FB</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_606060">#606060</color>
+    <color name="color_fbfbfd">#fbfbfd</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_36c7dd">#36c7dd</color>
+    <color name="color_top_bar">#65CBFA</color>
+    <color name="color_1396aa">#009688</color>
+    <color name="color_04d9b4">#9005D1EF</color>
+    <color name="color_414141">#ACA8A8</color>
+    <color name="color_c8c7cc">#c8c7cc</color>
+    <color name="color_929292">#929292</color>
+    <color name="main_tab_driver">#bfbfbf</color>
+    <color name="progressBar">#3F51B5</color>
+    <color name="color_love">#E91E63</color>
+    <color name="transparency">#00000000</color>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/love_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/love_add_confession"
+            android:textColor="@color/color_love"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/love_title"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:textSize="15sp"
+                    android:text="@string/love_to"/>
+                <EditText
+                    android:id="@+id/et_love_to"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:hint="@string/love_to_text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:textSize="15sp"
+                    android:text="@string/love_from"/>
+                <EditText
+                    android:id="@+id/et_love_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/anonymous"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_love_says"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:hint="@string/love_say_text"
+                android:minLines="10"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_content"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_love_publish"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+
+                android:layout_weight="1"
+                android:text="@string/publish"
+                android:background="@drawable/selector_btn_love"
+                android:textColor="@color/color_ffffff" />
+
+
+            <Button
+                android:id="@+id/btn_love_cancel"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:text="@string/cancel"
+                android:background="@drawable/selector_btn_love"
+                android:textColor="@color/color_ffffff"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="home_bar_labels">
+        <item>数字渤大</item>
+        <item>执行测评</item>
+        <item>综合教务系统</item>
+        <item>公交时刻</item>
+
+        <item>校历</item>
+        <item>渤大资讯</item>
+        <item>空教室查询</item>
+        <item>后勤报修</item>
+
+        <item>渤大官网</item>
+        <item>网费（滨海）</item>
+        <item>网费（松山）</item>
+        <item>自助缴费</item>
+
+        <item>网上图书</item>
+        <item>渤海说吧</item>
+        <item>高考录取通知书</item>
+        <item>毕业风采</item>
+    </array>
+
+    <array name="home_bar_icon">
+        <item>@mipmap/g1</item>
+        <item>@mipmap/g2</item>
+        <item>@mipmap/g3</item>
+        <item>@mipmap/g4</item>
+        <item>@mipmap/g5</item>
+        <item>@mipmap/g6</item>
+        <item>@mipmap/g7</item>
+        <item>@mipmap/g8</item>
+        <item>@mipmap/r1</item>
+        <item>@mipmap/r2</item>
+        <item>@mipmap/r3</item>
+        <item>@mipmap/r4</item>
+        <item>@mipmap/r5</item>
+        <item>@mipmap/r6</item>
+        <item>@mipmap/r7</item>
+        <item>@mipmap/r8</item>
+    </array>
+
+    <array name="collages">
+        <item>文学院</item>
+        <item>马克思主义学院</item>
+        <item>政法学院</item>
+        <item>历史文化学院</item>
+        <item>数理学院</item>
+        <item>食品科学与工程学院</item>
+        <item>信息科学与技术学院</item>
+        <item>软件与服务外包学院</item>
+        <item>工学院</item>
+        <item>经济学院</item>
+        <item>管理学院</item>
+        <item>历史文化学院</item>
+        <item>化学化工学院</item>
+        <item>食品科学与工程学院</item>
+        <item>外国语学院</item>
+        <item>教育科学学院</item>
+        <item>体育学院</item>
+        <item>艺术学院</item>
+        <item>新闻与传播学院</item>
+        <item>新能源学院</item>
+        <item>航运学院</item>
+        <item>大学外语教研部</item>
+        <item>师范学院</item>
+        <item>创新创业学院（科技园）</item>
+        <item>研究生学院</item>
+        <item>国际教育学院</item>
+    </array>
+
+    <array name="tab_service">
+        <item>校内通知</item>
+        <item>失物招领</item>
+        <item>渤大表白墙</item>
+    </array>
+
+
+</resources>

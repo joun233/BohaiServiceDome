@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_ffffff"
+            android:orientation="horizontal">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/img_profile"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                fresco:roundAsCircle="true"
+                fresco:placeholderImage="@mipmap/head_image"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.3"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tv_profile_full_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/username"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_profile_user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/horizontal_line_style" />
+        <com.allen.library.SuperTextView
+            android:id="@+id/tv_information"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            stv:sLeftTextString="@string/profile_data"
+            stv:sLeftTextSize="15sp"
+            stv:sLeftTextColor="@color/color_000000"
+            stv:sLeftIconRes="@android:drawable/ic_menu_myplaces"
+            stv:sRightIconRes="@drawable/ic_right_next" />
+
+
+        <com.allen.library.SuperTextView
+            android:id="@+id/tv_password_edit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            stv:sLeftTextString="@string/password_setting"
+            stv:sLeftTextSize="15sp"
+            stv:sLeftTextColor="@color/color_000000"
+            stv:sLeftIconRes="@android:drawable/ic_lock_idle_lock"
+            stv:sRightIconRes="@drawable/ic_right_next" />
+
+
+        <com.allen.library.SuperTextView
+            android:id="@+id/tv_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            stv:sLeftTextString="@string/my_sign_in"
+            stv:sLeftTextSize="15sp"
+            stv:sLeftTextColor="@color/color_000000"
+            stv:sLeftIconRes="@android:drawable/ic_menu_agenda"
+            stv:sRightIconRes="@drawable/ic_right_next" />
+
+
+        <com.allen.library.SuperTextView
+            android:id="@+id/tv_share"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            stv:sLeftTextString="@string/my_share"
+            stv:sLeftTextSize="15sp"
+            stv:sLeftTextColor="@color/color_000000"
+            stv:sLeftIconRes="@android:drawable/ic_menu_share"
+            stv:sRightIconRes="@drawable/ic_right_next" />
+
+        <com.allen.library.SuperTextView
+            android:id="@+id/tv_setting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            stv:sLeftTextString="@string/setting"
+            stv:sLeftTextSize="15sp"
+            stv:sLeftTextColor="@color/color_000000"
+            stv:sLeftIconRes="@android:drawable/ic_menu_manage"
+            stv:sRightIconRes="@drawable/ic_right_next" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/version"
+                    android:textColor="@color/color_000000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/tv_profile_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="V1.0.0"
+                    android:textColor="@color/color_000000"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_profile_logout"
+            style="@style/style_button"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/selector_btn_negative"
+            android:text="@string/login_out"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            />
+    </LinearLayout>
+
+</ScrollView>

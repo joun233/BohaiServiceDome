@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity.AddCampusTalkActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/color_ffffff"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_campus_talk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="@string/campus_talk"
+            android:minLines="15"
+            android:textSize="15sp" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/add_img_campus"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            fresco:placeholderImage="@mipmap/ic_add_photo" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add_campus_talk"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        style="@style/style_button"
+        android:background="@drawable/btn_negative_nomal"
+        android:text="@string/publish"
+        />
+
+</LinearLayout>

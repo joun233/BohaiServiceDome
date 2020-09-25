@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ffffff"
+    android:orientation="vertical"
+    tools:context=".activity.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/login_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/edit_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            android:ems="10"
+            android:digits="0123456789"
+            android:hint="@string/enter_id"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/edit_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            android:ems="10"
+            android:hint="@string/enter_full_name"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/edit_pwd_old"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"/>
+
+
+        <EditText
+            android:id="@+id/edit_pwd_new"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edit_pwd_old"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+            android:ems="10"
+            android:layout_marginTop="5dp"
+            android:hint="@string/sure_password"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/tip_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_pwd_new"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/tip_password_not"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/register_btn_sure"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tip_password"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_btn_negative"
+            android:text="@string/title_activity_register"
+            android:textColor="@color/color_ffffff"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/register_btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_btn_sure"
+            android:layout_alignStart="@+id/register_btn_sure"
+            android:layout_alignLeft="@+id/register_btn_sure"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_btn_negative"
+            android:text="@string/enter_login"
+            android:textColor="@color/color_ffffff"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

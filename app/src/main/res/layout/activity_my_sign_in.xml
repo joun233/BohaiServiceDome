@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ffffff"
+    tools:context=".activity.MySignInActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:id="@+id/materialCalendarView_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/white"
+            android:clipChildren="false"
+            app:mcv_calendarMode="month"
+            app:mcv_dateTextAppearance="@style/MaterialCalendarTextStyelNormal"
+            app:mcv_firstDayOfWeek="sunday"
+            app:mcv_selectionColor="#D203A9F4"
+            app:mcv_showOtherDates="all"
+            app:mcv_tileSize="match_parent"
+            app:mcv_tileWidth="match_parent" />
+
+        <View
+            style="@style/horizontal_line_style"/>
+        <LinearLayout
+            android:id="@+id/line_my_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@mipmap/sign_in_address" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_000000"
+                        android:textSize="18sp"
+                        android:text="@string/sign_in_time"/>
+                    <TextView
+                        android:id="@+id/my_sign_in_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_000000"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="5dp"/>
+                    <TextView
+                        android:id="@+id/my_sign_in_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_000000"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/my_sign_in_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

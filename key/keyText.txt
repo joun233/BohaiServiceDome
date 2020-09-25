@@ -1,0 +1,22 @@
+Variant: debugUnitTest
+Config: debug
+Store: C:\Users\l\AppData\Local\Android\android-sdk\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: DA:4E:DB:C0:59:F3:50:91:ED:BF:89:0C:A2:C3:B7:8A
+SHA1: E3:E8:92:DD:F0:1A:98:AA:FA:14:32:03:23:DE:B9:29:C3:EF:60:1D
+SHA-256: E8:25:DB:D8:C9:C6:7D:0A:8C:77:E2:38:33:69:F8:53:5F:78:C8:D0:9C:E8:BE:86:DB:59:4C:D9:7D:0D:C4:57
+
+别名: bohaiservice
+创建日期: 2020年4月8日
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: CN=JiangNan
+发布者: CN=JiangNan
+序列号: 5c84b3f1
+生效时间: Wed Apr 08 12:40:13 CST 2020, 失效时间: Sun Apr 02 12:40:13 CST 2045
+证书指纹:
+         SHA1: 27:EA:21:6C:75:84:5E:51:D4:22:36:02:0D:D3:F2:90:96:C2:55:30
+         SHA256: FA:77:0F:32:F9:39:85:27:EC:56:1D:E1:48:54:44:F6:D7:A4:4C:89:80:ED:6D:00:30:30:F9:46:05:97:AB:D8
+签名算法名称: SHA256withRSA
+主体公共密钥算法: 2048 位 RSA 密钥
